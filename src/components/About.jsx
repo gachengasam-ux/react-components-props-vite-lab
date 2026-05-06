@@ -1,7 +1,8 @@
-function About(image, about) {
+function About({ image, about }) {
+    const defaultImage = "https://via.placeholder.com/150";
     return (
         <aside>
-            <img src="{image}" alt="" />
+            <img src="{image || defaultImage}" alt="blog logo" />
             <p>{about}</p>
 
         </aside>

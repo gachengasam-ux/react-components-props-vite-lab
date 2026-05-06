@@ -1,7 +1,7 @@
-function Header(name) {
+function Header({ name }) {
     return (
         <h1>
-            blog
+
             {name}
         </h1>
     )
